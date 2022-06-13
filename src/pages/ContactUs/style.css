@@ -1,0 +1,117 @@
+.contact-us{
+}
+
+.contact-us .contact-us-info{
+    display: flex;
+    color:var(--text-color-gray);
+    padding:45px 0;
+
+}
+.contact-us-info .info-text{
+}
+.info-text .text-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+.info-text .text-item h2{
+    margin: 15px 0;
+    color: var(--black-color);
+    font-weight: 500;
+    font-family: brandon,serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+.contact-us-info .info-text a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.info-text .text-item a{
+    display: block;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 18px;
+
+}
+.info-map iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact-us-input{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+}
+.wrap-sidetext{
+    position: relative;
+    color:var(--text-color);
+}
+
+.wrap-sidetext__content {
+    padding: 25px 25px 50px;
+    margin: 0 0 0 30px;
+    border: 1px solid #090909;
+    background: #fff;
+    z-index: 1;
+    text-align: justify
+}
+
+.wrap-sidetext__content::before {
+    background: url(../../assets/images/pattern-contact-us.png) center center;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: -1px;
+    right: 35px;
+    top: 8px;
+    height: 84%;
+}
+
+.wrap-sidetext__content p {
+    margin: 0 0 10px
+}
+.contact-us-input .input-text h1{
+    margin: 0 0 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-family: brandon,serif;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    line-height: 32px;
+}
+.contact-us-input .input-text p{
+    text-align: left;
+}  
+
+.contact-us-input .input-form{
+}
+.contact-us-input .input-form h3{
+    margin: 0 0 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 44px;
+    padding-left: 20px;
+    width: 100%;
+    background: 0 0;
+}
+
+@media (max-width: 768px){
+    .contact-us .contact-us-info{
+        display: block;
+    }
+    .contact-us .contact-us-input{
+        display: block;
+    }
+}

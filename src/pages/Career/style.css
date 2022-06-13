@@ -1,0 +1,25 @@
+.career .career-content{
+    display: flex;
+}
+.upload {
+    position: relative
+}
+.upload label {
+    width: 100%;
+    border: 1px solid rgba(72,72,72,.3);
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+.upload-type-btn i {
+    color: var(--black-color);
+    
+}
+
+
+@media (max-width: 768px) {
+    .career .career-content{
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+.social_link{
+    display: flex;
+}
+
+.social_link li{
+    margin: 5px;
+    padding: 8px 13px;
+}
+
+.social_link li a{
+    width: 100%;
+    height: 100%;
+    color: var(--primary-color);
+}
